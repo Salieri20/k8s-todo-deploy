@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: yourdockerhubuser/myapp:latest
+          image: salieri20/to-do:e32e10c06db8f4e975672ad1ed9c43596392b7a3
           ports:
             - containerPort: 3000
           env:
