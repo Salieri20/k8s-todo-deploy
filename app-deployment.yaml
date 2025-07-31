@@ -12,6 +12,8 @@ spec:
       labels:
         app: myapp
     spec:
+      imagePullSecrets:
+        - name: regcred
       containers:
         - name: myapp
           image: salieri20/to-do:e11da11e28a7dbadfeec6ef066fc6f98a27aebb4
