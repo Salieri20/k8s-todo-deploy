@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: salieri20/to-do:5ae7ab471c2513d62064a73220ac089ee816a7f9
+          image: salieri20/to-do:e11da11e28a7dbadfeec6ef066fc6f98a27aebb4
           ports:
             - containerPort: 3000
           env:
